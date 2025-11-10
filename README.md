@@ -1,2 +1,1 @@
-# Retrieval-Augmented-Generation
-Retrieval Augmented Generation_Chatbot
+# Retrieval-Augmented-Generation_Chatbot

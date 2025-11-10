@@ -9,13 +9,19 @@ It provides **accurate, contextual and explainable answers** to learner queries 
 ## 🚀 Features
  
 | Feature | Description |
-|--------|-------------|
+
 | **RAG Pipeline** | Combines semantic retrieval + LLM generation |
+
 | **Vector Embeddings Search** | Uses FAISS/Chroma for efficient chunk search |
+
 | **Context-Aware Answering** | Retrieves top-k relevant text chunks for correct answers |
+
 | **Streamlit Chat UI** | Modern, clean, real-time interactive chat interface |
+
 | **Chat Memory** | Maintains conversation context |
+
 | **Auto Document Indexing** | Converts documents into embeddings with `memory_builder.py` |
+
 | **Supports Local LLaMA / Mistral / Falcon Models** | Works offline using llama-cpp-python |
  
 ---
@@ -38,17 +44,29 @@ This chatbot acts as a **24/7 intelligent tutor**, capable of answering:
  
 /project-root
 │── chatbot_app.py # Normal chatbot interface (no retrieval)
+
 │── rag_chatbot_app.py # RAG-based chatbot interface
+
 │── memory_builder.py # Builds vector index from documents
+
 │── models/ # GGUF LLaMA / Mistral model files
+
 │── docs/ # Knowledge base (markdown files)
+
 │── vector_store/ # FAISS / Chroma embeddings directory
+
 │── chatbot/
+
 │ │── bot/
+
 │ │── conversation/
+
 │ │── client/
+
 │ │── model/
+
 │ │── memory/
+
 │ │── helpers/
  
  
